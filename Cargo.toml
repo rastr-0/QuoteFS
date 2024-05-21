@@ -1,0 +1,12 @@
+[package]
+name = "quote_fs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fuser = "0.14.0"
+clap = { version = "4.5.4", features = ["cargo"] }
+libc = "0.2.155"
+env_logger = "0.11.3"
+pkg-config = "0.3.30"
+log = "0.4.21"
