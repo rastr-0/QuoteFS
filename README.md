@@ -13,6 +13,6 @@ For using QuoteFS you need
 * Clone all the code on your local PC with ```git clone https://github.com/rastr-0/QuoteFS```
 * Create a directrory which will be a mount point for your file system, let it be <b>mount_point</b>: ```mkdir mount_point```
 * Compile the code to a binary with ```cargo build --verbose```
-* Run the binary with ```./target/debug/quote_fs mount_point/```
+* Run the binary with ```./target/debug/QuoteFS mount_point/```
 
 These steps will create your own File System in Userspace without changing a Linux kernel code! 
